@@ -8,13 +8,8 @@ Key steps in this project include:
 3.	Clustering Analysis: The K-Means algorithm was applied to group customers into clusters based on their satisfaction and loyalty measures.
 The results offer valuable insights into customer segmentation, providing actionable recommendations for improving customer experience and tailoring marketing strategies to specific segments.
 
-In K-Means clustering, inertia_ is a metric that measures how well the data points are clustered within their respective clusters. It represents the sum of squared distances of each data point to the centroid of the cluster it belongs to.
+you will see that I have used inertia_ in Elbow method, In K-Means clustering, inertia_ is a metric that measures how well the data points are clustered within their respective clusters. It represents the sum of squared distances of each data point to the centroid of the cluster it belongs to.
 
-Formula
-Inertia
-= $ \text{Inertia} = \sum_{i=1}^{k} \sum_{x \in C_i} \| x - \mu_i \|^2 $
-
- .
 Key Characteristics
 Lower Inertia: Indicates tighter clusters with points closer to their centroids, suggesting better clustering.
 Higher Inertia: Indicates more dispersed clusters, which might suggest suboptimal clustering.
